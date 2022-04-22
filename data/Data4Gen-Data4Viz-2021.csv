@@ -1,0 +1,183 @@
+ID,country,sub_region,geo_scope,shutdown_type_new,affected_network,shutdown_extent,ordered_by,actual_cause,duration_days,official_just,shutdown_status
+1,Pakistan,Southern Asia,Level 2,Shutdown,Mobile,Full network,Executive government,Political instability,2026,National security/ Counter-terrorism,Ended
+2,Myanmar,South-Eastern Asia,Level 2,Throttle,Mobile,Full network,Executive government,Political instability,593,Fake news/ Hate speech/ Incendiary content/ Promoting violence,Ended
+3,India,Southern Asia,Level 2,Throttle,Mobile,Full network,Executive government,Political instability,551,National security/ Counter-terrorism,Ended
+4,Myanmar,South-Eastern Asia,Level 3,Shutdown,Mobile,Full network,Executive government,Information control,367,Public safety/ Quell unrest / Restore public order,Ended
+5,Ethiopia,Eastern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Unknown,Political instability,,Sabotage/ Third-party Action,Ongoing
+6,Uganda,Eastern Africa,Level 3,Throttle,"Broadband, Mobile",Service-based,Executive government,Protests,,Illegal content,Ended
+7,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,7,National security/ Counter-terrorism,Ended
+8,Jordan,Western Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Exam cheating,5,School exams,Ended
+9,India,Southern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Information control,366,Precautionary measure,Ended
+10,Tajikistan,Central Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Unknown,2,Unknown,Ended
+11,Uganda,Eastern Africa,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Elections,,Fake news/ Hate speech/ Incendiary content/ Promoting violence,Ongoing
+12,Uganda,Eastern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Elections,6,Fake news/ Hate speech/ Incendiary content/ Promoting violence,Ended
+13,India,Southern Asia,Level 2,Throttle,Mobile,Full network,State government,Information control,15,Fake news/ Hate speech/ Incendiary content/ Promoting violence,Ended
+14,Iran (Islamic Republic of),Southern Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Unknown,,Unknown,Unknown
+15,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Religious holiday/anniversary,1,Precautionary measure,Ended
+16,India,Southern Asia,Level 3,Shutdown,Mobile,Full network,Executive government,Protests,1,Public safety/ Quell unrest / Restore public order,Ended
+17,Cuba,Caribbean,Level 3,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,1,Unknown,Ended
+18,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Protests,2,Precautionary measure,Ended
+19,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+20,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,Public safety/ Quell unrest / Restore public order,Ended
+21,India,Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,Executive government,Protests,5,Public safety/ Quell unrest / Restore public order,Ended
+22,India,Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,State government,Protests,9,Public safety/ Quell unrest / Restore public order,Ended
+23,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Political instability,1,Unknown,Ended
+24,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Military,Political instability,,Unknown,Ongoing
+25,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Religious holiday/anniversary,1,Precautionary measure,Ended
+26,India,Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,Executive government,Protests,1,Public safety/ Quell unrest / Restore public order,Ended
+27,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Protests,2,Fake news/ Hate speech/ Incendiary content/ Promoting violence,Ended
+28,Cuba,Caribbean,Level 2,Shutdown,Mobile,Full network,Executive government,Unknown,1,Technical problems/ Infrastructure failure,Ended
+29,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Protests,73,Unknown,Ended
+30,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+31,Gabon,Middle Africa,Unknown,Shutdown,Unknown,Full network,Unknown,Protests,,Unknown,Ended
+32,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+33,Iran (Islamic Republic of),Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,5,Unknown,Ended
+34,Niger,Western Africa,Level 3,Shutdown,Mobile,Full network,Unknown,Elections,10,Unknown,Ended
+35,Chad,Middle Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,5,Unknown,Ended
+36,Senegal,Western Africa,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Protests,2,Unknown,Ended
+37,Chad,Middle Africa,Level 1,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,1,Unknown,Ended
+38,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,Local government,Communal violence,1,Unknown,Ended
+39,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+40,Russian Federation,Eastern Europe,Level 3,Throttle,"Broadband, Mobile",Full network,Executive government,Other,,Illegal content,Ongoing
+41,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+42,Oman,Western Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Information control,,Other,Ongoing
+43,Myanmar,South-Eastern Asia,Level 3,Shutdown,Mobile,Full network,Military,Protests,45,Unknown,Ended
+44,Jordan,Western Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Protests,,Unknown,Ongoing
+45,China,Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Information control,,Unknown,Ongoing
+46,Congo,Middle Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Elections,4,Unknown,Ended
+47,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+48,Bangladesh,Southern Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Protests,1,Unknown,Ended
+49,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,Unknown,Political instability,2,National security/ Counter-terrorism,Ended
+50,Kazakhstan,Central Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Protests,2,Unknown,Ended
+51,Kazakhstan,Central Asia,Level 3,Shutdown,"Broadband, Mobile","Full network, Service-based",Unknown,Protests,1,Unknown,Ended
+52,Myanmar,South-Eastern Asia,Level 3,Shutdown,Broadband,Full network,Military,Protests,11,Unknown,Ended
+53,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+54,Jordan,Western Asia,Level 3,"Shutdown, Throttle","Broadband, Mobile","Full network, Service-based",Unknown,Political instability,3,Unknown,Ended
+55,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+56,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,4,National security/ Counter-terrorism,Ended
+57,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+58,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+59,India,Southern Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,Local government,Communal violence,3,Public safety/ Quell unrest / Restore public order,Ended
+60,Pakistan,Southern Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Protests,1,Fake news/ Hate speech/ Incendiary content/ Promoting violence,Ended
+61,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+62,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+63,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+64,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+65,Iraq,Western Asia,Level 3,"Shutdown, Throttle","Broadband, Mobile",Full network,Unknown,Protests,1,Technical problems/ Infrastructure failure,Ended
+66,"Palestine, State of",Western Asia,Level 2,"Shutdown, Throttle","Broadband, Mobile",Full network,Non-government,Other,14,Sabotage/ Third-party Action,Ended
+67,Cuba,Caribbean,Level 3,Shutdown,Mobile,Full network,Executive government,Protests,8,Unknown,Ended
+68,Ethiopia,Eastern Africa,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Unknown,1,Unknown,Ended
+69,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+70,Myanmar,South-Eastern Asia,Level 3,Shutdown,Mobile,Service-based,Military,Information control,,Other,Ongoing
+71,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+72,Syrian Arab Republic,Western Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Exam cheating,23,School exams,Ended
+73,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Information control,1,Unknown,Ended
+74,Nigeria,Western Africa,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Other,224,National security/ Counter-terrorism,Ended
+75,Sudan,Northern Africa,Level 3,Shutdown,Mobile,Full network,Executive government,Exam cheating,15,School exams,Ended
+76,Iran (Islamic Republic of),Southern Asia,Level 1,"Shutdown, Throttle",Mobile,Full network,Unknown,Elections,3,Unknown,Ended
+77,Algeria,Northern Africa,Level 3,"Shutdown, Throttle","Broadband, Mobile",Full network,Executive government,Exam cheating,5,School exams,Ended
+78,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+79,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Information control,1,National security/ Counter-terrorism,Ended
+80,Jordan,Western Asia,Level 3,Shutdown,Mobile,Service-based,Executive government,Exam cheating,21,School exams,Ended
+81,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+82,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+83,Eswatini,Southern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Protests,5,Public safety/ Quell unrest / Restore public order,Ended
+84,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+85,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+86,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+87,India,Southern Asia,Unknown,Shutdown,Mobile,Full network,State government,Visits by government officials,2,Public safety/ Quell unrest / Restore public order,Ended
+88,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,Public safety/ Quell unrest / Restore public order,Ended
+89,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,Public safety/ Quell unrest / Restore public order,Ended
+90,India,Southern Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,State government,Communal violence,2,Public safety/ Quell unrest / Restore public order,Ended
+91,Cuba,Caribbean,Level 3,Shutdown,"Broadband, Mobile","Full network, Service-based",Executive government,Protests,5,Other,Ended
+92,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+93,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+94,Iran (Islamic Republic of),Southern Asia,Level 2,Shutdown,Mobile,Full network,Unknown,Protests,7,Unknown,Ended
+95,India,Southern Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,State government,Communal violence,2,Public safety/ Quell unrest / Restore public order,Ended
+96,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+97,Iraq,Western Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Exam cheating,1,School exams,Ended
+98,India,Southern Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,State government,Protests,1,Public safety/ Quell unrest / Restore public order,Ended
+99,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Exam cheating,1,School exams,Ended
+100,Syrian Arab Republic,Western Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Exam cheating,5,School exams,Ended
+101,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+102,Zambia,Eastern Africa,Level 3,Shutdown,"Broadband, Mobile",Service-based,Unknown,Elections,1,Unknown,Ended
+103,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Communal violence,3,Public safety/ Quell unrest / Restore public order,Ended
+104,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Unknown,40,Unknown,Ended
+105,Indonesia,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Protests,16,Public safety/ Quell unrest / Restore public order,Ended
+106,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,Public safety/ Quell unrest / Restore public order,Ended
+107,Indonesia,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Unknown,Information control,1,Unknown,Ended
+108,South Sudan,Eastern Africa,Level 3,Shutdown,Mobile,Service-based,Unknown,Protests,2,Technical problems/ Infrastructure failure,Ended
+109,India,Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,State government,Political instability,2,Precautionary measure,Ended
+110,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,5,Precautionary measure,Ended
+111,Nigeria,Western Africa,Level 2,Shutdown,Mobile,Full network,Executive government,Other,21,Other,Ended
+112,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,4,Precautionary measure,Ended
+113,Afghanistan,Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,Executive government,Political instability,5,Unknown,Ended
+114,India,Southern Asia,Level 2,Shutdown,Mobile,"Full network, Service-based",State government,Protests,1,Public safety/ Quell unrest / Restore public order,Ended
+115,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Information control,15,Unknown,Ended
+116,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+117,Ethiopia,Eastern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Non-government,Political instability,18,Unknown,Ended
+118,Yemen,Western Asia,Level 2,Shutdown,Broadband,Full network,Non-government,Other,2,Unknown,Ended
+119,Myanmar,South-Eastern Asia,Level 3,Shutdown,"Broadband, Mobile",Full network,Military,Information control,,Unknown,Unknown
+120,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,Local government,Exam cheating,1,School exams,Ended
+121,Myanmar,South-Eastern Asia,Level 3,Shutdown,Mobile,Full network,Military,Information control,,Unknown,Unknown
+122,India,Southern Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,Unknown,Communal violence,6,Public safety/ Quell unrest / Restore public order,Ended
+123,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,Unknown,Communal violence,3,Unknown,Ended
+124,Yemen,Western Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,Non-government,Other,7,Unknown,Ended
+125,Eswatini,Southern Africa,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Protests,1,Unknown,Ended
+126,Bangladesh,Southern Asia,Level 3,Shutdown,Mobile,Full network,Executive government,Other,1,Technical problems/ Infrastructure failure,Ended
+127,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,Public safety/ Quell unrest / Restore public order,Ended
+128,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+129,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+130,Turkmenistan,Central Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Other,,Public safety/ Quell unrest / Restore public order,Unknown
+131,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+132,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+133,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,Local government,Exam cheating,1,School exams,Ended
+134,Sudan,Northern Africa,Level 3,Shutdown,"Broadband, Mobile","Full network, Service-based",Military,Political instability,30,National security/ Counter-terrorism,Ended
+135,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+136,India,Southern Asia,Level 2,Shutdown,Mobile,"Full network, Service-based",Local government,Exam cheating,1,School exams,Ended
+137,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+138,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+139,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+140,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+141,Uzbekistan,Central Asia,Level 3,Shutdown,"Broadband, Mobile",Service-based,Executive government,Information control,,Other,Unknown
+142,Myanmar,South-Eastern Asia,Level 1,Shutdown,Mobile,Full network,Military,Information control,,Unknown,Unknown
+143,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+144,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+145,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+146,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+147,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+148,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+149,India,Southern Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,4,Public safety/ Quell unrest / Restore public order,Ended
+150,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+151,Sudan,Northern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Executive government,Protests,2,Unknown,Ended
+152,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+153,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+154,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+155,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+156,Burkina Faso,Western Africa,Level 3,Shutdown,Mobile,Full network,Executive government,Protests,9,Public safety/ Quell unrest / Restore public order,Ended
+157,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+158,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+159,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,6,National security/ Counter-terrorism,Ended
+160,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+161,Turkmenistan,Central Asia,Level 1,Shutdown,"Broadband, Mobile",Full network,Executive government,Protests,14,Public safety/ Quell unrest / Restore public order,Ended
+162,Iran (Islamic Republic of),Southern Asia,Level 2,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,33,Unknown,Ended
+163,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+164,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+165,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+166,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,7,National security/ Counter-terrorism,Ended
+167,India,Southern Asia,Level 2,Shutdown,Mobile,Full network,State government,Protests,2,Public safety/ Quell unrest / Restore public order,Ended
+168,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+169,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+170,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+171,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+172,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+173,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+174,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+175,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+176,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+177,Sudan,Northern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,1,Unknown,Ended
+178,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,1,National security/ Counter-terrorism,Ended
+179,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,2,National security/ Counter-terrorism,Ended
+180,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+181,India,Southern Asia,Level 1,Shutdown,Mobile,Full network,State government,Political instability,3,National security/ Counter-terrorism,Ended
+182,Sudan,Northern Africa,Level 3,Shutdown,"Broadband, Mobile",Full network,Unknown,Protests,1,Unknown,Ended

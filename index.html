@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet"> -->
+    <style>
+			/* source-sans-pro-300 - latin */
+			@font-face {
+				font-family: 'Source Sans Pro';
+				font-style: normal;
+				font-weight: 300;
+				src: url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.eot'); /* IE9 Compat Modes */
+				src: local(''),
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.woff') format('woff'), /* Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+			}
+			/* source-sans-pro-regular - latin */
+			@font-face {
+				font-family: 'Source Sans Pro';
+				font-style: normal;
+				font-weight: 400;
+				src: url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.eot'); /* IE9 Compat Modes */
+				src: local(''),
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+			}
+			/* source-sans-pro-600 - latin */
+			@font-face {
+				font-family: 'Source Sans Pro';
+				font-style: normal;
+				font-weight: 600;
+				src: url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.eot'); /* IE9 Compat Modes */
+				src: local(''),
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.woff') format('woff'), /* Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+			}
+			/* source-sans-pro-700 - latin */
+			@font-face {
+				font-family: 'Source Sans Pro';
+				font-style: normal;
+				font-weight: 700;
+				src: url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.eot'); /* IE9 Compat Modes */
+				src: local(''),
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+						url('./fonts/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+			}
+			/* source-serif-pro-regular - latin */
+			@font-face {
+				font-family: 'Source Serif Pro';
+				font-style: normal;
+				font-weight: 400;
+				src: url('./fonts/source-serif-pro-v10-latin/'); /* IE9 Compat Modes */
+				src: local(''),
+						url('fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+						url('fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+						url('fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+						url('fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+						url('fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-regular.svg#SourceSerifPro') format('svg'); /* Legacy iOS */
+			}
+			/* source-serif-pro-700 - latin */
+			@font-face {
+				font-family: 'Source Serif Pro';
+				font-style: normal;
+				font-weight: 700;
+				src: url('./fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-700.eot'); /* IE9 Compat Modes */
+				src: local(''),
+						url('./fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+						url('./fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+						url('./fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-700.woff') format('woff'), /* Modern Browsers */
+						url('./fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+						url('./fonts/source-serif-pro-v10-latin/source-serif-pro-v10-latin-700.svg#SourceSerifPro') format('svg'); /* Legacy iOS */
+			}
+
+      body {
+        margin: 0;
+        background-color:#ff213f;
+      }
+			.container { 
+				border: 0;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				overflow: hidden;
+			}
+			.headerNav {
+				/* min-height: 20vh; */
+				height: 20%;
+				margin: 20px auto 0px;
+        width: 53%;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+			}
+			.navArrow {
+				/* width: 50px; */
+				/* height: 50px; */
+				/* background-color: white; */
+				/* padding-top: 15px; */
+				cursor: pointer;
+			}
+			i:hover {
+				color: white;
+			}
+			.navArrow[disabled]{
+				pointer-events: none;
+				opacity: 0.3;
+			}
+			#leftArrow {
+				padding-right: 5px;
+			}
+			#rightArrow {
+				padding-left: 5px;
+			}
+
+			i {
+				border: solid black;
+				border-width: 0 2px 2px 0;
+				display: inline-block;
+				padding: 15px;
+			}
+
+			/* i.arrowDisabled {
+				border: solid darkgray;
+				pointer-events: none;
+			} */
+
+			.right {
+				transform: rotate(-45deg);
+				-webkit-transform: rotate(-45deg);
+			}
+
+			.left {
+				transform: rotate(135deg);
+				-webkit-transform: rotate(135deg);
+			}
+			#callout {
+				position: relative;
+				display: block;
+				font-family: 'Source Serif Pro', serif;
+				font-size: 1.8rem;
+				text-align: center;
+			}
+      #callout > .highlight {
+        color: white;
+      }
+			.menu {
+				position: relative;
+				text-align:center;
+  			align-content:center;
+			}
+			.legend {
+				display: flex;
+				flex-direction: row;
+				height: 20px;
+				justify-content: center;
+				padding-bottom: 20px;
+				font-family:'Source Sans Pro', sans-serif;
+				font-size:12px;
+			}
+			.legendLabel {
+				padding-left: 5px;
+				padding-right: 10px;
+			}
+			.legendTitle {
+				text-transform: uppercase;
+				font-weight: 800;
+				margin-right: 10px;
+			}
+			.legendCircle {
+				border-radius: 50%;
+				margin: 2px 0px 0px 0px;
+				width: 12px;
+				height: 12px;
+			}
+			#nationalCircle {
+				/* background-color: #bf1b32; */
+				background-color: #a00d22;
+			}
+			#regionalCircle {
+				/* background-color: #ff7a91; */
+				background-color: #f391a3;
+			}
+			#localCircle {
+				background-color: white;
+			}
+			#unknownCircle {
+				border:1px solid white;
+				width: 12px;
+				height: 12px;
+				background-color: #ff213f;
+			}
+			.buttonGroup {
+				margin:0 auto;
+   			display:block;
+			}
+			.button {
+				background-color:white;
+				border-radius:25px;
+				border-width: 0px;
+				display:inline-block;
+				cursor:pointer;
+				color:black;
+				font-family:'Source Sans Pro', sans-serif;
+				font-size:12px;
+				padding:5px 12px;
+				margin: 1px 1px 5px 1px;
+				text-decoration:none;
+			}
+			.button:hover {
+				background-color:#7d7d7d;
+				color: white;
+			}
+			.button:active {
+				background-color:black;
+				color: white;
+				position:relative;
+				top:1px;
+			}
+			.button:focus {
+				background-color: black;
+				color: white;
+    		outline: none; 
+			}
+			.button.selected {
+				background-color:black;
+				color: white;
+				outline: none;
+				pointer-events: none;
+			}
+			#svgCanvas {
+				position: relative;
+				height: 65%;
+				margin-bottom: 15px;
+			}
+      svg {
+        margin: 0 auto;
+        display: table;
+      }
+      .ancestor-circle {
+        fill-opacity: .1;
+        stroke-width: 2px;
+      }
+      .leaf-circle {
+        fill-opacity: 1;
+        stroke-width: 1.5px;
+      }
+			.group-label {
+				font-family:'Source Sans Pro', sans-serif;
+				font-size:11px;
+				font-weight: 600;
+			}
+			div.tooltip .title {
+				font: 14px 'Source Sans Pro', sans-serif;
+			}
+			div.tooltip {
+				color: black;
+				position: relative;
+				text-align: left;
+				/* width: 120px; */
+				/* height: 28px; */
+				padding: 8px;
+				font: 10px 'Source Sans Pro', sans-serif;
+				background: rgba(255,255,255,1);
+				box-shadow: 0 0 10px gray;
+				pointer-events: none;
+			}
+			div.tooltip:after, div.tooltip:before {
+				right: 100%;
+				top: 50%;
+				border: solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+			}
+
+			div.tooltip:after {
+				border-color: rgba(255, 255, 255, 0);
+				border-right-color: #ffffff;
+				border-width: 10px;
+				margin-top: -10px;
+			}
+			div.tooltip:before {
+				border-color: rgba(194, 194, 194, 0);
+				border-right-color: #c2c2c2;
+				border-width: 11px;
+				margin-top: -11px;
+			}
+		
+			@media screen and (max-width: 375px) {
+				.headerNav {
+					height: 25%;
+					margin: 20px auto 0px;
+					width: 90%;
+				}
+				#callout {
+					font-size: 1.2rem;
+				}
+				#svgCanvas {
+					height: 48%;
+					margin-bottom: 15px;
+				}
+				.group-label{
+					font-size: 9px;
+				}
+				.legend {
+					font-size: 10px;
+				}
+				.legendCircle {
+					border-radius: 50%;
+					margin: 2px 0px 0px 0px;
+					width: 9px;
+					height: 9px;
+				}
+				#unknownCircle {
+					width: 9px;
+					height: 9px;
+				}
+			}
+
+			@media screen and (min-width: 375px) and (max-width: 600px) {
+				.headerNav {
+					height: 25%;
+					margin: 20px auto 0px;
+					width: 90%;
+				}
+				#callout {
+					font-size: 1.3rem;
+				}
+				#svgCanvas {
+					height: 48%;
+					margin-bottom: 15px;
+				}
+				.group-label{
+					font-size: 10px;
+				}
+			}	
+			@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+				.headerNav {
+					height: 20%;
+    			margin: 20px auto 0px;
+    			width: 84%;
+				}
+				i {
+						padding: 25px;
+				}
+				#callout {
+					font-size: 2.2rem;
+				}
+				#svgCanvas {
+					height: 55%;
+					margin-bottom: 15px;
+				}
+				.group-label{
+					font-size: 18px;
+				}
+				.groupArc path {
+					fill: black;
+					fill-opacity: 0.1;
+					stroke: none;
+			}
+				.legend {
+					height: 20px;
+					padding-bottom: 46px;
+					font-size: 24px;
+				}
+				.buttonGroup {
+					margin: 0 auto;
+    			width: 85%;
+    			display: block;
+				}
+				.button {
+					border-radius: 30px;
+    			font-size: 25px;
+    			padding: 12px 24px;
+    			margin: 6px 1px 5px 1px;
+				}
+				.legendCircle {
+					margin: 6px 0px 0px 0px;
+    			width: 20px;
+    			height: 20px;
+				}
+				#unknownCircle {
+					width: 20px;
+					height: 20px;
+				}
+			}	
+    </style>
+  </head>
+  <body>
+			<div class="container">
+				<div class="headerNav">
+					<div id="leftArrow" class="navArrow" disabled><i class="left"></i></div>
+					<div id="callout" ></div>
+					<div id="rightArrow" class="navArrow"><i class="right"></i></div>
+			</div>
+      <div id="svgCanvas"></div>
+			<div class="menu">
+				<div class="legend">
+					<div class="legendTitle">Shutdown Scope</div>
+					<div id="nationalCircle" class="legendCircle"></div>
+					<div class="legendLabel">National</div>
+					<div id="regionalCircle" class="legendCircle"></div>
+					<div class="legendLabel">Regional</div>
+					<div id="localCircle" class="legendCircle"></div>
+					<div class="legendLabel">Local</div>
+					<!-- <div id="unknownCircle" class="legendCircle"></div>
+					<div class="legendLabel">Unknown</div> -->
+				</div>
+				<div class="buttonGroup">
+					<button id="all" class="button active">All</button>
+					<button id="sub_region" class="button">Regions</button>
+					<button id="actual_cause" class="button">Cause</button>
+					<button id="ordered_by" class="button">Ordered By</button>
+					<button id="official_just" class="button">Justification</button>
+					<button id="shutdown_type_new" class="button">Shutdown Type</button>
+					<button id="affected_network" class="button">Affected Network</button>
+				</div>
+			</div>
+		</div>
+    <script src="d3.v5.min.js"></script>
+    <script>
+			const calloutMap = {
+				// "all": {
+				// 	"main": "In 2019, 1707 days of internet access were disrupted by 214 internet shutdowns across 33 countries.",
+				// 	"totalDays": 1707,
+				// 	"numShutdowns": 214,
+				// 	"numCountries": 33
+				// 	},
+				"all": 'In 2021, Access Now and the #KeepItOn coalition documented at least <span class="highlight">155</span> internet shutdowns in <span class="highlight">29</span> countries.',
+				"sub_region": 'India kept the highest country score with <span class="highlight">109</span> recorded shutdowns.',
+				"actual_cause": 'Shutdowns cut off <span class="highlight">hundreds of millions</span> of people from life-saving health information, education, and work opportunities during the COVID-19 pandemic.',
+				"ordered_by": "Myanmar imposed one of the world's longest recorded shutdowns in Rakhine and Chin states: <span class='highlight'>19</span> months and still counting.",
+				"official_just": 'An <span class="highlight">increasing</span> number of shutdowns occurred this year in response to ongoing violence, particularly in active conflict zones.',
+				"shutdown_type_new": 'Authoritarian regimes often shut the internet down to silence protests, sway elections, hide human rights violations, and bargain with other bad actors.',
+				"affected_network": 'Companies like <span class="highlight">Sandvine</span> and <span class="highlight">Allot</span> fuelled these shutdowns with censorship technologies.'
+			}
+
+			const selectedButtonIds = ["all", "sub_region", "actual_cause", "ordered_by", "official_just", "shutdown_type_new", "affected_network"]
+			let selectedIndex = 0
+			const lineHeight = 12
+
+			let radius;
+			let labelWidth;
+			// console.log(window.innerWidth, window.innerHeight)
+			if (window.innerWidth < 450) {
+				radius = 2
+				labelWidth = 40
+			} else if (window.innerWidth >= 450 && window.innerWidth <= 1024) {
+				radius = 4
+				labelWidth = 120
+			} else {
+				radius = 4
+				labelWidth = 80
+			}
+			// console.log(window.innerWidth, labelWidth)
+
+			const margin = {
+				left: 0, 
+				right: 0, 
+				top: 0, 
+				bottom: 0
+				},
+        duration = 1000;
+			const charSize = 10;
+					
+      let buttonId = 'all'
+
+      const svg = d3.select("#svgCanvas").append("svg");
+      const g = svg.append("g");
+			const lg = svg.append("g")
+
+			const minRadius = 20
+			// const w = getDivDimension("#svgCanvas", "width")
+			// const h = getDivDimension("#svgCanvas", "height")
+			
+      
+			// #a00d22
+			// #f391a3
+			
+
+			// add tooltip
+			const div = d3.select('body').append('div').attr('class', 'tooltip').attr('style', 'position: absolute; opacity: 0;');
+
+			// get the dom element width
+			function getDivDimension (div, dim) {
+							// console.log(div, dim)
+							const dimension = d3.select(div)
+								// get the width of div element
+								.style(dim)
+								// take off 'px'
+								.slice(0, -2)
+							// return as an integer
+							return Math.round(Number(dimension))
+						}
+
+			let width = getDivDimension("#svgCanvas", "width")
+			let height = getDivDimension("#svgCanvas", "height")
+			// console.log(width, height)
+
+			const pack = d3.pack()
+          .padding(d => d.padding || 0)
+					// .size([height * 0.5, height * 0.5])
+					// .radius( d => {
+					// 		if (d.r < minRadius) {
+					// 			return minRadius
+					// 		} else {
+					// 			return d.r
+					// 		}
+					// 	});
+		
+		function updateVizDimensions() {
+			// console.log('updateVizDimensions')
+			width = getDivDimension("#svgCanvas", "width")
+			height = getDivDimension("#svgCanvas", "height")
+		}
+		
+		window.addEventListener('resize', updateVizDimensions);
+
+    d3.csv('data/Data4Gen-Data4Viz-2021.csv').then( data => {
+        // console.log(data)
+
+        const formatted = getFormattedData(data, radius)
+        console.log(formatted)
+
+        // let radiusRoot = d3.hierarchy(updateNodeGroups(formatted, 'actual_cause'))
+        //             .sum(d => d.radius)
+        //             .sort((a, b) => a.data.geo_scope_val - b.data.geo_scope_val)
+				
+				// console.log('radiusRoot', radiusRoot)
+        
+        let root = d3.hierarchy(updateNodeGroups(formatted, buttonId))
+            // .sum(d => d.label ? d.labelRadius : d.radius)
+						.sum(d => d.radius)
+						.sort((a,b) => a.data.geo_scope_val - b.data.geo_scope_val)
+						// .sort((a,b) => a.geo_scope_val - b.geo_scope_val)
+    
+        // console.log(root)
+
+        draw(false, root, buttonId);
+
+        onresize = _ => draw(true, root, buttonId);
+
+        function getFormattedData(data, radius) {
+            const mapped = data.map( d => {
+							d.actual_cause = d.actual_cause.trim()
+ 							d.shutdown_type_new = d.shutdown_type_new.trim()
+								if (d.geo_scope !== 'Level 1' && d.geo_scope !== 'Level 2' && d.geo_scope !== 'Level 3') {
+									console.log(d)
+								}
+                // create new leaner obj
+                // set radius based on geo_scope
+                if (d.geo_scope === 'Unknown') {
+                    // d.radius = radius * 1
+										d.geo_scope_val = 0
+										d.geo_scope_label = 'Unknown'
+                } else if (d.geo_scope === 'Level 1') {
+                    // d.radius = radius * 1
+										d.geo_scope_val = 1
+										d.geo_scope_label = 'Local'
+                } else if (d.geo_scope === 'Level 2') {
+                    // d.radius = radius * 3
+										d.geo_scope_val = 2
+										d.geo_scope_label = 'Regional'
+                } else if (d.geo_scope === 'Level 3') {
+                    // d.radius = radius * 4
+										d.geo_scope_val = 3
+										d.geo_scope_label = 'National'
+                }
+								if (d.official_just === 'Fake news/ Hate speech/ Incendiary content/ Promoting violence') {
+									d.official_just = 'Hate Speech + Fake News'
+								} else if (d.official_just === 'Public safety/ Quell unrest / Restore public order') {
+									d.official_just = 'Public Safety + Order'
+								} else if (d.official_just === 'National security/ Counter-terrorism') {
+									d.official_just = 'National Security'
+								} else if (d.official_just === 'Sabotage/ Third-party Action') {
+									d.official_just = 'Third-party Action'
+								} else if (d.official_just === 'Technical problems/ Infrastructure failure') {
+									d.official_just = 'Technical Problems'
+								} else {
+									d.official_just = d.official_just
+								}
+								if (d.actual_cause === 'Religious holiday/anniversary') {
+									d.actual_cause = 'Religious Holiday'
+								} else if (d.actual_cause === 'Visits by Government Officials') {
+									d.actual_cause = 'Official Visits'
+								}
+								if (d.shutdown_type_new === 'Shutdown, Throttle') {
+									d.shutdown_type_new = 'Shutdown + Throttle'
+								}
+								if (d.affected_network === 'Broadband, Mobile') {
+									d.affected_network = 'Broadband + Mobile'
+								}
+								if (d.ordered_by === 'Local government') {
+									d.ordered_by = 'Local Government'
+								}
+								if (d.ordered_by === 'Executive government') {
+									d.ordered_by = 'Executive Government'
+								}
+								if (d.ordered_by === 'State government') {
+									d.ordered_by = 'State Government'
+								}
+								if (d.ordered_by === 'Law enforcement') {
+									d.ordered_by = 'Law Enforcement'
+								}
+                d.ID = +d.ID
+                d.duration_days = +d.duration_days
+								d.radius = radius
+                // set starting position in center of svg
+                // d.focusX = width / 2
+                // d.focusY = height / 2
+                // console.log(width, height, d.focusX, d.focusY)
+                d.start_date_obj = new Date(d.start_date)
+                return d
+                // sort (not doing anything atm)
+            })
+            const sorted = mapped.sort((a, b) => new Date(b.start_date) - new Date(a.start_date)).reverse()
+            //   console.log(sorted)
+            return sorted
+        }
+
+        function draw(resizing, myRoot, myButtonId) {
+					// console.log('draw')
+            svg
+							.attr("width", width + margin.left + margin.right)
+							.attr("height", height + margin.top + margin.bottom);
+
+            g
+							.attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+						lg
+							.attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+            pack
+							// .radius(myRoot, d => )
+							.size([width, height])
+							.padding(d => {
+								// console.log(d)
+								return d.data.padding;
+							})
+							// pack.radius(d => {
+							// 	console.log(d)
+							// 	return d.value
+							// }); 
+
+            let node = pack(myRoot);
+						let leaves = node.leaves();
+						let	ancestors = node.ancestors();
+
+						// console.log('root', myRoot)
+
+            // console.log(leaves)
+            // console.log(node.ancestors()[0].children)
+
+						const t = d3.transition()
+        			.duration(1000)
+
+						// try sorting leaves based on x and y values
+						const newLeaves = [...leaves].sort((a,b) => {
+							//sort by x, secondary by y
+  						return a.x == b.x ? a.y - b.y : a.x - b.x;
+						})
+
+						// console.log(leaves)
+						// console.log(newLeaves)
+
+						let leafCounter = 0
+						// const mappedNewLeaves = leaves.map( l => {
+						// 	l.x = newLeaves[leafCounter].x
+						// 	leafCounter++
+						// 	return l
+						// })
+						// console.log(mappedNewLeaves)
+						
+						// const t500 = d3.transition().duration(500)
+						// const t2000 = d3.transition().duration(2000)
+						// console.log('t', t)
+						
+						const ancestorCircles = g.selectAll(".ancestor-circle")
+							.data(node.ancestors()[0].children, d => d.data.name)
+							.join(
+								enter => enter.append("circle")
+									.style("fill", "white")
+									.style("stroke","white")
+									.attr("class", "ancestor-circle")
+									.attr("stroke-opacity", 0.4 )
+									.attr("cx", d => d.x)
+									.attr("cy", d => d.y)
+									.attr("r", d => {
+										// if (d.r < minRadius) {
+										// 	return minRadius
+										// } else {
+										// 	return d.r
+										// }
+										return d.r
+									})
+									.attr("opacity", 0)
+								.call(enter => enter.transition(t)
+								.attr("opacity", 1)	
+								),
+								update => update
+									.attr("cx", d => d.x)
+									.attr("cy", d => d.y)
+									.attr("r", d => d.r)
+								.call(update => update.transition(t)
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y)
+                    .attr("r", d => d.r)
+								),
+								exit => exit
+									.call(exit => exit.transition(t/2)
+										.attr("r", 1e-6)
+                    .remove()
+									)
+							)
+			
+						const leafCircles = g.selectAll(".leaf-circle")
+							.data(
+								node.leaves(), d => d.data.ID)
+							// node.leaves().map( l => {
+							// 	l.x = newLeaves[leafCounter].x
+							// 	l.y = newLeaves[leafCounter].y
+							// 	leafCounter++
+							// 	return l
+							// }))
+							.join(
+								enter => enter.append("circle")
+									.style("fill", d => {
+										if (d.data.geo_scope === 'Unknown') {
+											return "#ff254a"
+										} else if (d.data.geo_scope === 'Level 1') {
+											return "white"
+										} else if (d.data.geo_scope === 'Level 2') {
+											// return "#ff7a91"
+											return "#f391a3"
+										} else if (d.data.geo_scope === 'Level 3') {
+											// return "#bf1b32"
+											return "#a00d22"
+										}
+									})
+									.style("stroke", d => {
+										if (d.data.geo_scope === 'Unknown') {
+											return "white"
+										} else if (d.data.geo_scope === 'Level 1') {
+											return "white"
+										} else if (d.data.geo_scope === 'Level 2') {
+											// return "#ff7a91"
+											return "#f391a3"
+										} else if (d.data.geo_scope === 'Level 3') {
+											// return "#bf1b32"
+											return "#a00d22"
+										}
+									})
+									// .style("fill", (d,i) => `rgb(255, 255, ${i})`)
+									.attr("class", "leaf-circle")
+									.attr("cx", d => d.x)
+									.attr("cy", d => d.y)
+									// .attr("r", d => d.data.label ? d.data.labelRadius : radius)
+									.attr("r", d => radius)
+									.attr("opacity", 0)
+								.call(enter => enter.transition(t)
+									.attr("opacity", 1)
+								),
+								update => update
+									.call(update => resizing ? update.attr("cx", d => d.x)
+										.attr("cy", d => d.y)
+										// .attr("r", d => d.data.label ? d.data.labelRadius : radius)
+										.attr("r", d => radius) :
+									 update.transition(t)
+										.attr("cx", d => d.x)
+										.attr("cy", d => d.y)
+										// .attr("r", d => d.data.label ? d.data.labelRadius : radius)
+										.attr("r", d => radius)
+								),
+								exit => exit
+									.call(exit => exit.transition(t/2)
+										.attr("r", 1e-6)
+                    .remove()
+									)
+							)
+
+							const leafCirclesRollover = lg.selectAll(".leaf-circle-rollover")
+							.data(node.leaves(), d =>  d.data.ID)
+							.join(
+								enter => enter.append("circle")
+									.style("fill", "white")
+									.style("stroke", "black")
+									.style("stroke-width", "2px")
+									.attr("fill-opacity", 0)
+									.attr("stroke-opacity", 0)
+									.attr("class", "leaf-circle-rollover")
+									.attr("cx", d => d.x)
+									.attr("cy", d => d.y)
+									.attr("r", 1e-6)
+								.call(enter => enter.transition(t)
+									// .attr("r", d => d.data.label ? d.data.labelRadius : radius)
+									.attr("r", d => radius)
+								),
+								update => update
+									.call(update => update.transition(t)
+										.attr("cx", d => d.x)
+										.attr("cy", d => d.y)
+										// .attr("r", d => d.data.label ? d.data.labelRadius :  radius)
+										.attr("r", d => radius)
+								),
+								exit => exit
+									.call(exit => exit.transition(t/2)
+										.attr("r", 1e-6)
+                    .remove()
+									)
+							)
+
+							d3.selectAll(".leaf-circle-rollover")
+								.on('mousemove', function(d) {
+									// console.log('mousemove', d3.select(this))
+									div
+										.transition()
+										.duration(200)
+										.style('opacity', 1);
+									div
+										.html(makeTooltipInfo(d))
+										.style('left', d3.event.pageX + 14 + 'px')
+										.style('top', d3.event.pageY - 78 + 'px');
+									d3.select(this).style("cursor", "pointer");
+									d3.select(this).attr("stroke-opacity", 1)
+								})
+								.on('mouseout', function() {
+									d3.select(this).attr("stroke-opacity", 0)
+									div
+										.transition()
+										.duration(500)
+										.style('opacity', 0);
+							})
+
+						// try adding curved arcs for group labels
+						// const startAngle = Math.PI * 0.1
+						// const labelArc = d3.arc()
+						// 			.innerRadius( d => d.r - 5)
+						// 			.outerRadius( d => d.r + 10)
+						// 			.startAngle(startAngle)
+						// 			.endAngle( d => {
+						// 				const total = d.data.name.length
+						// 				const step = charSize / d.r
+						// 				return startAngle + (total * step)
+						// 			})
+						// const groupLabels = g.selectAll(".groupArc")
+						// 											.data(node.ancestors()[0].children, d => d.data.name).enter()
+						// 											.append("g")
+						// 											.attr("class", "groupArc")
+						// 											.attr("transform", d => `translate(${d.x},${d.y})`)
+						
+						// groupLabels
+						// 	.append("path")
+						// 			.attr("class", "groupArc-arc")
+						// 			.attr("id", (d, i) => `arc${i}`)
+						// 			.attr("d", labelArc)
+
+						// groupLabels
+						// 	.append("text")
+						// 		.attr("class", "groupArc-label")
+						// 		.attr("transform", d => `translate(0,0)`)
+						// 		.attr("x", 0)
+						// 		.attr("y", 0)
+						// 		.attr("dy", 7)
+						// 	.append("textPath")
+						// 		.attr("xlink:href", (d,i) => `#arc${i}`)
+						// 		.text(d => d.data.name)
+
+						g.selectAll("text")
+							.data(node.ancestors()[0].children, d => d.data.name)
+							.join(
+								enter => enter.append("text")
+										// .enter().append("tspan")
+										.attr("fill", "black")
+										.attr("class", "group-label")
+										.attr("text-anchor", "middle")
+										.attr("x", d => d.x + 1)
+										.attr("y", d => d.y +1)
+										.attr("dy", -1)//set the dy here
+										// .attr("y", (d, i) => {
+										// 	return	d.y + (i - getLabelLines(getLabelWords(d.data.name), d.data.name).length / 2 + 0.8) * lineHeight
+										// })
+										.attr("transform", d => `translate(${0},${-d.r + 10})`)
+										.attr("opacity", 0)
+										.text(d => d.data.name)
+										// .call(wrap, d => 30)
+									.call(enter => enter.transition(t)
+										.attr("opacity", d => d.data.name === "undefined" ? 0 : 1)).call(wrap, labelWidth),
+								update => update
+										.attr("fill", "black")
+										// .attr("y", 0)
+										.attr("transform", d => `translate(${0},${-d.r + 10})`)
+										.attr("x", d => d.x + 1)
+										.attr("y", d => d.y +1)
+										.attr("dy", -1)//set the dy here
+										.attr("opacity", 0)
+									.call(update => update.transition(t)
+										// .attr("x", (d, i) => i * 16)),
+										.attr("opacity", d => d.data.name === "undefined" ? 0 : 1)).call(wrap, labelWidth),
+								exit => exit
+										.attr("fill", "brown")
+									.call(exit => exit.transition(t/2)
+										// .attr("y", 30)
+										.attr("opacity", 0)
+										.remove())
+						);
+						g.selectAll(".group-label text")
+							.call(wrap)
+						}
+
+				// Make tooltip html
+				function makeTooltipInfo(d) {
+					let html = '';
+					if (d.data.country) {
+						html += '<div class="title"><b>' + d.data.country + '</b></div>'
+					}
+					if (d.data.duration_days) {
+						html += '<b>Affected Days</b>: ' + d.data.duration_days
+					}
+					if (d.data.geo_scope_label) {
+						html += '<br><b>Geographic Scope</b>: ' + d.data.geo_scope_label
+					}
+					if (d.data.shutdown_status) {
+						html += '<br><b>Shutdown Status</b>: ' + d.data.shutdown_status
+					}
+					if (d.data.ordered_by) {
+						html += '<br><b>Ordered By</b>: ' + d.data.ordered_by
+					}
+					if (d.data.official_just) {
+						html += '<br><b>Official Justification</b>: ' + d.data.official_just
+					}
+					if (d.data.actual_cause) {
+						html += '<br><b>Actual Cause</b>: ' + d.data.actual_cause
+					}
+					if (d.data.affected_network) {
+						html += '<br><b>Affected Network</b>: ' + d.data.affected_network
+					}
+					if (d.data['full or service-based']) {
+						html += '<br><b>Full or Service-based</b>: ' + d.data['full or service-based']
+					}
+					// if (d.data.ID) {
+					// 	html += '<br><b>ID</b> ' + d.data.ID
+					// }
+					// console.log(html.toString())
+					return `${html.toString()}`
+				}
+
+        function updateNodeGroups(data, byVar) {
+            const categoryArrayObj = data.reduce((obj, d, i) => {
+                // here we want to group elements according to the values they
+                // have in common for a particular key (that we select by the button)
+								// d.label = false;
+								// const newObj = {...d}
+								// newObj.label = true;
+								// newObj.labelRadius = 20;
+								// newObj.geo_scope_label = 'Label';
+                if (obj[d[byVar]]){
+                    obj[d[byVar]].push(d);
+                } else {
+                    obj[d[byVar]] = [d];
+										// obj[d[byVar]].push(newObj)
+                }
+                return obj
+                // console.log(d[byVar])
+            }, {})
+
+            // console.log(categoryArrayObj)
+
+            const hierarchy_group_nodes = []
+            for (const property in categoryArrayObj) {
+                const newObj = {}
+                newObj['name'] = property
+								newObj['padding'] = 0
+                newObj['children'] = categoryArrayObj[property]
+                hierarchy_group_nodes.push(newObj)
+            }
+            // console.log(hierarchy_group_nodes)
+
+						//create a sub hierarchy for sub regions
+						region_hierarchy_group_nodes = hierarchy_group_nodes.map( el => {
+							// get the children for each category
+							// and create subcategories for subregions							
+							let newRegionObj = {}
+							// for (let i = 0; i < subRegionKeys.length; i++) {
+								newRegionObj = el.children.reduce((obj, d) => {
+									if (obj[d['geo_scope_label']]){
+											obj[d['geo_scope_label']].push(d);
+									} else {
+											obj[d['geo_scope_label']] = [d];
+									}
+									return obj
+								}, {})
+							// }
+							// console.log(el.name, newRegionObj)
+
+							// transform key/value pairs
+							const transfRegionArray = []
+							for (const property in newRegionObj) {
+                const newObj = {}
+                newObj['name'] = property
+								newObj['padding'] = 150
+                newObj['children'] = newRegionObj[property]
+                transfRegionArray.push(newObj)
+            	}
+
+							// console.log(transfRegionArray)
+
+							nObj = {}
+							nObj.name = el.name
+							nObj.padding = 100
+							nObj.children = transfRegionArray
+							return nObj
+						})
+
+						// console.log(region_hierarchy_group_nodes)
+
+            const updatedDataObj = {
+                'name': 'root',
+								'padding': 150,
+                'children': region_hierarchy_group_nodes
+								// 'children': hierarchy_group_nodes
+            }
+            // console.log(updatedDataObj)
+            return updatedDataObj
+        }
+
+				function updateCallout(byVar) {
+					document.getElementById("callout").innerHTML = calloutMap[byVar]
+				}
+
+				function updateButtons() {
+					// Toggle the bubble chart based on
+					// the currently clicked button.
+					updateNodeGroups(formatted, buttonId)
+					updateCallout(buttonId)
+					// root = d3.hierarchy(makeData())
+					//     .sum(d => d.value)
+					//     .sort((a, b) => a.value - b.value);
+					root = d3.hierarchy(updateNodeGroups(formatted, buttonId))
+							.sum(d => d.label ? d.labelRadius : d.radius)
+							.sort((a,b) => a.data.geo_scope_val - b.data.geo_scope_val)
+					draw(false, root, buttonId);
+				}
+
+        ////// UI ELEMENTS ////////
+        function setupButtons() {
+					let leftArrowClicked = false
+					let rightArrowClicked = false
+					let bottomButtonClicked = false
+					// set the "all group" to be selected by default
+					document.getElementById(`${buttonId}`).classList.add("selected")
+
+					document.getElementById('leftArrow')
+						.addEventListener('click', function(e) {
+							// console.log(this)
+							e.preventDefault();
+							if (!leftArrowClicked) {
+								leftArrowClicked = true
+								selectedIndex--
+								if (selectedIndex <= 0) {
+									selectedIndex = 0
+									this.setAttribute('disabled', '')
+								}
+								buttonId = selectedButtonIds[selectedIndex]
+								const selector = `${buttonId}`
+								console.log(selector)
+								if (selector !== 'undefined') {
+									d3.selectAll('.button').classed('selected', false)
+									document.getElementById(selector).classList.add("selected")
+									// console.log(buttonId, selectedIndex)
+									updateButtons()
+									if (selectedIndex > 0) {
+										document.getElementById('rightArrow').removeAttribute('disabled')
+									}
+								}
+								// set timeout
+								setTimeout(function() {
+									leftArrowClicked = false
+								}, 1000)
+							}
+					})
+
+					document.getElementById('rightArrow')
+						.addEventListener('click', function(e) {
+							// console.log(this)
+							e.preventDefault();
+							if (!rightArrowClicked) {
+								rightArrowClicked = true
+								selectedIndex++
+								if (selectedIndex >= selectedButtonIds.length) {
+									selectedIndex = selectedButtonIds.length - 1
+									this.setAttribute('disabled', '')
+								}
+								buttonId = selectedButtonIds[selectedIndex]
+								const selector = `${buttonId}`
+								// console.log(selector)
+								if (selector !== 'undefined') {
+									d3.selectAll('.button').classed('selected', false)
+									document.getElementById(selector).classList.add("selected")
+									// console.log(buttonId, selectedIndex)
+									updateButtons()
+									if (selectedIndex < selectedButtonIds.length) {
+										document.getElementById('leftArrow').removeAttribute('disabled')
+									}
+									if (selectedIndex === selectedButtonIds.length - 1) {
+										this.setAttribute('disabled', '')
+									}
+								}
+								// set timeout
+								setTimeout(function() {
+									rightArrowClicked = false
+								}, 1000)
+							}
+					})
+
+					document.querySelectorAll('.button').forEach(item => {
+						item.addEventListener('click', function(e) {
+							e.preventDefault();
+							if (!bottomButtonClicked) {
+								bottomButtonClicked = true
+								// Remove active class from all buttons
+								// d3.selectAll('.button').classed('active', false)
+								d3.selectAll('.button').classed('selected', false)
+								// Find the button just clicked
+								var button = d3.select(this)
+								// Set it as the active button
+								button.classed('selected', true)
+								
+								// Get the id of the button
+								buttonId = button.attr('id')
+
+								//Get selected Index
+								for (let i = 0; i < selectedButtonIds.length; i++) {
+									if (buttonId === selectedButtonIds[i]) {
+										selectedIndex = i
+									}
+								}
+								// console.log(buttonId, selectedIndex)
+
+								if (selectedIndex < selectedButtonIds.length) {
+									document.getElementById('rightArrow').removeAttribute('disabled')
+								}
+								if (selectedIndex === selectedButtonIds.length - 1) {
+									document.getElementById('rightArrow').setAttribute('disabled', '')
+								}
+								if (selectedIndex === 0) {
+									document.getElementById('leftArrow').setAttribute('disabled', '')
+								}
+								if (selectedIndex > 0) {
+									document.getElementById('leftArrow').removeAttribute('disabled')
+								}
+
+								updateButtons()
+								}
+								// set timeout
+								setTimeout(function() {
+									bottomButtonClicked = false
+								}, 1000)
+						})
+					})	
+        }
+        
+        setupButtons()
+				updateCallout("all")
+    
+    })
+
+
+      ////// UTILS ////////
+      function randBetween(min, max){
+        return Math.floor(Math.random() * (max - min + 1) + min);
+      }
+
+			function wrap(text, width) {
+				text.each(function() {
+					var text = d3.select(this),
+							words = text.text().split(/\s+/).reverse(),
+							word,
+							line = [],
+							lineNumber = 0,
+							lineHeight = 1.1, // ems
+							y = text.attr("y"),
+							x = text.attr("x")
+							dy = parseFloat(text.attr("dy")),
+							tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+					// console.log(x, y, dy)
+					while (word = words.pop()) {
+						line.push(word);
+						tspan.text(line.join(" "));
+						if (tspan.node().getComputedTextLength() > width) {
+							line.pop();
+							tspan.text(line.join(" "));
+							line = [word];
+							tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+						}
+					}
+				});
+			}
+
+			function getLabelWords(text) {
+				const words = text.split(/\s+/g); // To hyphenate: /\s+|(?<=-)/
+				if (!words[words.length - 1]) words.pop();
+				if (!words[0]) words.shift();
+				return words;
+			}
+
+			function measureWidth(text) {
+				const context = document.createElement("canvas").getContext("2d");
+				return text => context.measureText(text).width;
+			}
+
+			function getTargetWidth(text) {
+				return  Math.sqrt(measureWidth(text.trim()) * lineHeight)
+			}
+
+			
+			function getLabelLines(words, text) {
+				let line;
+				let lineWidth0 = Infinity;
+				const lines = [];
+				for (let i = 0, n = words.length; i < n; ++i) {
+					let lineText1 = (line ? line.text + " " : "") + words[i];
+					let lineWidth1 = measureWidth(lineText1);
+					if ((lineWidth0 + lineWidth1) / 2 < getTargetWidth(text)) {
+						line.width = lineWidth0 = lineWidth1;
+						line.text = lineText1;
+					} else {
+						lineWidth0 = measureWidth(words[i]);
+						line = {width: lineWidth0, text: words[i]};
+						lines.push(line);
+					}
+				}
+				return lines;
+			}
+
+			function getTextRadius(lines) {
+				let radius = 0;
+				for (let i = 0, n = lines.length; i < n; ++i) {
+					const dy = (Math.abs(i - n / 2 + 0.5) + 0.5) * lineHeight;
+					const dx = lines[i].width / 2;
+					radius = Math.max(radius, Math.sqrt(dx ** 2 + dy ** 2));
+				}
+				return radius;
+			}
+
+    </script>
+  </body>
+</html>
